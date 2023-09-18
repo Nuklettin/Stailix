@@ -1,7 +1,7 @@
 import "dotenv/config";
 import { Midjourney } from "../src";
 
-let prompt = "https://i.imgur.com/FjoFcKk.png, (fascinating Russian (Man) (Regular Fit) Business black jacket leather),(Russian (Man) Expensive fashion ), ((Regular Fit) (Man)), Business (Man) style design, ,((Black Background)) inspired fashion design, full body shot, ultra detailed , dream-like quality, studio lighting, professional fashion photography , hyper realistic,UHD,32K --ar 133:200";
+let prompt = "https://i.imgur.com/Ppcg7ZX.png, (fascinating   Man (Regular Fit) Business black leather jacket),(  Man (Expensive) fashion ), ((Regular Fit) Man), Business Man style design, ,((Black Background)) inspired fashion design, full body shot, ultra detailed , dream-like quality, studio lighting, professional fashion photography , hyper realistic,UHD,32K --ar 133:200";
 
 /**
  *
@@ -12,9 +12,9 @@ let prompt = "https://i.imgur.com/FjoFcKk.png, (fascinating Russian (Man) (Regul
  */
 async function main() {
   const client = new Midjourney({
-    ServerId: "1102396513679843438",
-    ChannelId: "1102397995569397831",
-    SalaiToken: "MTEwMjIwMzI3MzY4MDgwMTg2Mw.GWvCZQ.dYZfrhoPwayjmWRLTeseZEHvoLVlkrdVFzJkqo",
+    ServerId: "1153285309530918922",
+    ChannelId: "1153285309530918925",
+    SalaiToken: "MjA1NzMyNjYyNzIyMjk3ODU2.YTtI2A.IXFdMNhH5VDwKx3371q_9DyGDOU",
     HuggingFaceToken: <string>process.env.HUGGINGFACE_TOKEN,
     Debug: true,
     Ws: true,
