@@ -1,7 +1,7 @@
 import "dotenv/config";
 import { Midjourney } from "../src";
 
-let prompt = "https://i.imgur.com/Z5cfxx9.png, angry bald man with a bushy moustache, logo, simplistic, minimalistic";
+let prompt = "https://i.imgur.com/FjoFcKk.png, (fascinating Russian (Man) (Regular Fit) Business black jacket leather),(Russian (Man) Expensive fashion ), ((Regular Fit) (Man)), Business (Man) style design, ,((Black Background)) inspired fashion design, full body shot, ultra detailed , dream-like quality, studio lighting, professional fashion photography , hyper realistic,UHD,32K --ar 133:200";
 
 /**
  *
@@ -14,7 +14,7 @@ async function main() {
   const client = new Midjourney({
     ServerId: "1102396513679843438",
     ChannelId: "1102397995569397831",
-    SalaiToken: "MTEwMjIwMzI3MzY4MDgwMTg2Mw.Gmo4CQ.lLDtWnCSOY0ewiaTPpVlYcN4Eu6TdDu2n6BbkE",
+    SalaiToken: "MTEwMjIwMzI3MzY4MDgwMTg2Mw.GWvCZQ.dYZfrhoPwayjmWRLTeseZEHvoLVlkrdVFzJkqo",
     HuggingFaceToken: <string>process.env.HUGGINGFACE_TOKEN,
     Debug: true,
     Ws: true,
