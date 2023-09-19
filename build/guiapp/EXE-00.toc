@@ -51,7 +51,7 @@
  [],
  False,
  False,
- 1695035540,
+ 1695082663,
  [('run.exe',
    'f:\\kohya\\midjourney-client\\venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
    'EXECUTABLE')])
